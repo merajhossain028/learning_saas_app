@@ -1,4 +1,4 @@
-import { Link } from 'lucide-react'
+import Link from 'next/link'
 import Image from 'next/image'
 import Navitems from './Navitems'
 
@@ -13,7 +13,7 @@ const Navbar = () => {
                     width={46} 
                     height={46} 
                 />
-                </div>
+            </div>
         </Link>
         <div className='flex items-center gap-8'>
             <Navitems />
